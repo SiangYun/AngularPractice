@@ -1,0 +1,13 @@
+$bg: rgba(43, 11, 33, 0.986);
+.container-fluid {
+    margin-top: 30px;
+    width: 100%;
+    background-color: $bg;
+}
+
+.bg-color {
+    background-color: $bg;
+    color: aliceblue;
+    font-size: 22px;
+    padding-right: 5px; 
+}

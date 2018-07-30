@@ -1,0 +1,25 @@
+<div class="container-fluid">
+  <span *ngFor="let value of inputStringSplit">
+    <span *ngFor="let btn of dataButton">
+      <span *ngIf="value==btn.Parm_Value">
+        <button type="button" class="btn bg-color">
+          <i class="fa fa-fw {{ btn.My_Remark }}" style="padding-right: 10px"></i>
+          <span *ngIf="inputMode=='1'">
+            <span *ngIf="inputLang=='1';else elseBlock">{{ btn.Parm_EText }}</span>
+          <ng-template #elseBlock>{{ btn.Parm_Text }}</ng-template>
+          </span>
+        </button>
+      </span>
+    </span>
+  </span>
+  <button type="button" class="btn bg-color"></button>
+</div>
+
+<div>
+  <form class="form-inline">
+    <input type="text" class="form-control" name="inputString" [(ngModel)]="inputString" placeholder="e.g 按鈕字串組 123456A">
+    <input type="text" class="form-control" name="inputMode" [(ngModel)]="inputMode" placeholder="0: icon, 1: icon word">
+    <input type="text" class="form-control" name="inputLang" [(ngModel)]="inputLang" placeholder="0: 中文, 1: English">
+    <button type="submit" class="btn btn-danger" (click)="showInput()">Submit</button>    
+  </form>
+</div>

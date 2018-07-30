@@ -1,0 +1,68 @@
+[
+    {
+        "Parm_Value": "0",
+        "My_Remark": "fa-arrow-left",
+        "Parm_Text": "回上一頁",
+        "Parm_EText": "Back"
+    },
+    {
+        "Parm_Value": "1",
+        "My_Remark": "fa-search",
+        "Parm_Text": "查詢",
+        "Parm_EText": "Query"
+    },
+    {
+        "Parm_Value": "2",
+        "My_Remark": "fa-plus-circle",
+        "Parm_Text": "新增拍賣",
+        "Parm_EText": "New Bazaar"
+    },
+    {
+        "Parm_Value": "3",
+        "My_Remark": "fa-file-excel-o",
+        "Parm_Text": "匯出",
+        "Parm_EText": "Export Excel"
+    },
+    {
+        "Parm_Value": "4",
+        "My_Remark": "fa-save",
+        "Parm_Text": "存檔",
+        "Parm_EText": "Save"
+    },
+    {
+        "Parm_Value": "5",
+        "My_Remark": "fa-copy",
+        "Parm_Text": "複製",
+        "Parm_EText": "Copy"
+    },
+    {
+        "Parm_Value": "6",
+        "My_Remark": "fa-share-square-o",
+        "Parm_Text": "發佈",
+        "Parm_EText": "Release"
+    },
+    {
+        "Parm_Value": "7",
+        "My_Remark": "fa-minus-circle",
+        "Parm_Text": "刪除",
+        "Parm_EText": "Delete"
+    },
+    {
+        "Parm_Value": "8",
+        "My_Remark": "fa-check-square-o",
+        "Parm_Text": "成交",
+        "Parm_EText": "Deal"
+    },
+    {
+        "Parm_Value": "9",
+        "My_Remark": "fa-arrow-down",
+        "Parm_Text": "撤銷",
+        "Parm_EText": "Revoke"
+    },
+    {
+        "Parm_Value": "A",
+        "My_Remark": "fa-plus-circle",
+        "Parm_Text": "新增競價",
+        "Parm_EText": "New Bidding"
+    }
+]
